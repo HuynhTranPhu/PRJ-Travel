@@ -1,0 +1,516 @@
+body{
+    margin: 0;
+}
+.content-des{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-des .total{
+    display: flex;
+    width: 1168.8px;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.content-des h3{
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 100;
+    color: rgb(192, 170, 170);
+}
+.content-des h1{
+    text-align: center;
+    color: rgb(61, 56, 56);
+}
+.card{
+    background-image: url("./Img-destination/des-1.jpg");
+    width: 369.6px;
+    height: 369.6px;
+    background-size: cover;
+    color: white;
+    position: relative;
+    margin-top: 30px;
+}
+.card .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, 
+    rgba(0,0,10,0.35647762522977944) 0%, 
+    rgba(228,209,209,0) 100%);
+    position: absolute;
+}
+.card .overlay .image img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.card .overlay .country{
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card .overlay .package{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+.card .overlay .blue{
+    position: absolute;
+    background-color: rgb(94, 183, 243);
+    height: 100%;
+    width: 100%;
+    transition: 0.4s;
+    text-align: center;
+    opacity: 0;
+}
+.card:hover .overlay .blue{
+    opacity: 0.9;
+}
+.card .overlay .blue .text1{
+    position: absolute;
+    left: 140px;
+    top: 90px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card .overlay .blue .text2{
+    position: absolute;
+    left: 165px;
+    top: 140px;
+}
+.card .overlay .blue .text3{
+    border-radius: 15px;
+    padding: 7px 20px;
+    background-color: white;
+    color: rgb(65, 171, 241);
+    position: absolute;
+    left: 95px;
+    top: 190px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.card1{
+    background-image: url("./Img-destination/des-2.jpg");
+    width: 369.6px;
+    height: 369.6px;
+    background-size: cover;
+    color: white;
+    position: relative;
+    margin-top: 30px;
+}
+.card1 .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, 
+    rgba(0,0,10,0.35647762522977944) 0%, 
+    rgba(228,209,209,0) 100%);
+    position: absolute;
+}
+.card1 .overlay .image img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.card1 .overlay .country{
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card1 .overlay .package{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+.card1 .overlay .blue{
+    position: absolute;
+    background-color: rgb(94, 183, 243);
+    height: 100%;
+    width: 100%;
+    transition: 0.4s;
+    text-align: center;
+    opacity: 0;
+}
+.card1:hover .overlay .blue{
+    opacity: 0.9;
+}
+.card1 .overlay .blue .text1{
+    position: absolute;
+    left: 140px;
+    top: 90px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card1 .overlay .blue .text2{
+    position: absolute;
+    left: 165px;
+    top: 140px;
+}
+.card1 .overlay .blue .text3{
+    border-radius: 15px;
+    padding: 7px 20px;
+    background-color: white;
+    color: rgb(65, 171, 241);
+    position: absolute;
+    left: 95px;
+    top: 190px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.card2{
+    background-image: url("./Img-destination/des-3.jpg");
+    width: 369.6px;
+    height: 369.6px;
+    background-size: cover;
+    color: white;
+    position: relative;
+    margin-top: 30px;
+}
+.card2 .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, 
+    rgba(0,0,10,0.35647762522977944) 0%, 
+    rgba(228,209,209,0) 100%);
+    position: absolute;
+}
+.card2 .overlay .image img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.card2 .overlay .country{
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card2 .overlay .package{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+.card2 .overlay .blue{
+    position: absolute;
+    background-color: rgb(94, 183, 243);
+    height: 100%;
+    width: 100%;
+    transition: 0.4s;
+    text-align: center;
+    opacity: 0;
+}
+.card2:hover .overlay .blue{
+    opacity: 0.9;
+}
+.card2 .overlay .blue .text1{
+    position: absolute;
+    left: 140px;
+    top: 90px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card2 .overlay .blue .text2{
+    position: absolute;
+    left: 165px;
+    top: 140px;
+}
+.card2 .overlay .blue .text3{
+    border-radius: 15px;
+    padding: 7px 20px;
+    background-color: white;
+    color: rgb(65, 171, 241);
+    position: absolute;
+    left: 95px;
+    top: 190px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.card3{
+    background-image: url("./Img-destination/des-4.jpg");
+    width: 369.6px;
+    height: 369.6px;
+    background-size: cover;
+    color: white;
+    position: relative;
+    margin-top: 30px;
+}
+.card3 .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, 
+    rgba(0,0,10,0.35647762522977944) 0%, 
+    rgba(228,209,209,0) 100%);
+    position: absolute;
+}
+.card3 .overlay .image img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.card3 .overlay .country{
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card3 .overlay .package{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+.card3 .overlay .blue{
+    position: absolute;
+    background-color: rgb(94, 183, 243);
+    height: 100%;
+    width: 100%;
+    transition: 0.4s;
+    text-align: center;
+    opacity: 0;
+}
+.card3:hover .overlay .blue{
+    opacity: 0.9;
+}
+.card3 .overlay .blue .text1{
+    position: absolute;
+    left: 140px;
+    top: 90px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card3 .overlay .blue .text2{
+    position: absolute;
+    left: 165px;
+    top: 140px;
+}
+.card3 .overlay .blue .text3{
+    border-radius: 15px;
+    padding: 7px 20px;
+    background-color: white;
+    color: rgb(65, 171, 241);
+    position: absolute;
+    left: 95px;
+    top: 190px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.card4{
+    background-image: url("./Img-destination/des-5.jpg");
+    width: 369.6px;
+    height: 369.6px;
+    background-size: cover;
+    color: white;
+    position: relative;
+    margin-top: 30px;
+}
+.card4 .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, 
+    rgba(0,0,10,0.35647762522977944) 0%, 
+    rgba(228,209,209,0) 100%);
+    position: absolute;
+}
+.card4 .overlay .image img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.card4 .overlay .country{
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card4 .overlay .package{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+.card4 .overlay .blue{
+    position: absolute;
+    background-color: rgb(94, 183, 243);
+    height: 100%;
+    width: 100%;
+    transition: 0.4s;
+    text-align: center;
+    opacity: 0;
+}
+.card4:hover .overlay .blue{
+    opacity: 0.9;
+}
+.card4 .overlay .blue .text1{
+    position: absolute;
+    left: 140px;
+    top: 90px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card4 .overlay .blue .text2{
+    position: absolute;
+    left: 165px;
+    top: 140px;
+}
+.card4 .overlay .blue .text3{
+    border-radius: 15px;
+    padding: 7px 20px;
+    background-color: white;
+    color: rgb(65, 171, 241);
+    position: absolute;
+    left: 95px;
+    top: 190px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.card5{
+    background-image: url("./Img-destination/des-6.jpg");
+    width: 369.6px;
+    height: 369.6px;
+    background-size: cover;
+    color: white;
+    position: relative;
+    margin-top: 30px;
+}
+.card5 .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, 
+    rgba(0,0,10,0.35647762522977944) 0%, 
+    rgba(228,209,209,0) 100%);
+    position: absolute;
+}
+.card5 .overlay .image img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.card5 .overlay .country{
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card5 .overlay .package{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+.card5 .overlay .blue{
+    position: absolute;
+    background-color: rgb(94, 183, 243);
+    height: 100%;
+    width: 100%;
+    transition: 0.4s;
+    text-align: center;
+    opacity: 0;
+}
+.card5:hover .overlay .blue{
+    opacity: 0.9;
+}
+.card5 .overlay .blue .text1{
+    position: absolute;
+    left: 140px;
+    top: 90px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card5 .overlay .blue .text2{
+    position: absolute;
+    left: 165px;
+    top: 140px;
+}
+.card5 .overlay .blue .text3{
+    border-radius: 15px;
+    padding: 7px 20px;
+    background-color: white;
+    color: rgb(65, 171, 241);
+    position: absolute;
+    left: 95px;
+    top: 190px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.content-ho{
+    margin-top: 70px;
+    background-image: url("./Img-destination/des-7.jpg");
+    display: flex;
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-ho h1{
+    font-weight: bold;
+    position: absolute;
+    left: 350px;
+    top:15px;
+    font-size: 50px;
+    color: white;
+}
+.content-ho p{
+    font-size: 14px;
+    position: absolute;
+    left: 900px;
+    top:80px;
+    padding: 7px 20px;
+    color: rgb(238, 133, 150);
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}

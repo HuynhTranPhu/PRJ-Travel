@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+.content-be{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 120px;
+}
+.content-be h3{
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.content-be h2{
+    font-size: 36px;
+    color: rgb(59, 56, 56);
+}
+.content-be p{
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #9a9a9a;
+    margin-top: 30px;
+}
+.content-be h1{
+    font-weight: normal;
+   
+}
+.content-be h1 .number{
+    color: #dadada; 
+    text-decoration: line-through;
+}
+.content-be h1 .for{
+    font-size: 14px;
+}
+.content-be a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #1bbc9b;
+    padding: 10px 30px; 
+    border-radius: 19px;
+}
+.content-be .carosel .myslide{
+    width: 750px;
+    height: 410px;  
+}
+.content-be .carosel {
+    margin-left: 50px; 
+}
+.content-be .carosel .myslide img{
+    width: 750px;
+    height: 410px;  
+}
+.content-be .carosel .hour{
+    width: 700px;
+    margin-left: 70px;
+    margin-top: px;  
+}
+.contain-bes{
+    margin-top: 30px;
+}
+.contain-bes a{
+    text-decoration: none;
+}
+
+.content-add {
+    height: 250px;
+    background-image: url("./Img-best-beach/d1.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 50%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif  ;
+}
+ .content-add .add-one h3{
+    font-size: 14px;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    letter-spacing: 2px;
+
+}
+ .content-add .add-one h2{
+    font-weight: bold;
+    font-size: 36px;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+.content-add .add-one a{
+    padding: 7px 25px;
+    position: absolute;
+    top: 150px;
+    left: 320px;
+    background-color: white;
+    border-radius: 15px;
+    color: rgb(211, 171, 97);
+    text-decoration: none;
+}
+.content-add1 {
+    height: 250px;
+    background-image: url("./Img-best-beach/d2.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 50%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif  ;
+}
+ .content-add1 .add-one h3{
+    font-size: 14px;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    letter-spacing: 2px;
+
+}
+ .content-add1 .add-one h2{
+    font-weight: bold;
+    font-size: 36px;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+.content-add1 .add-one a{
+    padding: 7px 25px;
+    position: absolute;
+    top: 150px;
+    left: 320px;
+    background-color: white;
+    border-radius: 15px;
+    color: rgb(211, 171, 97);
+    text-decoration: none;
+}
+.add{
+    margin-top: 30px;
+    display: flex;
+}
