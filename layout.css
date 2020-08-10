@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+.wrapper1{
+    display: grid;
+    grid-template-columns:1fr;
+}
+.wrapper1 .main{
+    margin-top: 3rem;
+}
+.wrapper1 .main .content-be{
+    margin-top: 5rem;
+}
+.wrapper1 .main .content-pa{
+    margin-top: 5rem;
+}
+.wrapper1 .footer{
+    margin-top: 5rem;
+}
+
